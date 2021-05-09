@@ -4,10 +4,10 @@ var height;
 
 function preload(){
    bg =loadImage("Images/cityImage.png");
-   balloonImage1=loadAnimation("Images/HotAirBallon-01.png");
-   balloonImage2=loadAnimation("Images/HotAirBallon-01.png","Images/HotAirBallon-01.png",
-   "Images/HotAirBallon-01.png","Images/HotAirBallon-02.png","Images/HotAirBallon-02.png",
-   "Images/HotAirBallon-02.png","Images/HotAirBallon-03.png","Images/HotAirBallon-03.png","Images/HotAirBallon-03.png");
+   balloonImage1=loadAnimation("HotAirBallon-01.png");
+   balloonImage2=loadAnimation("HotAirBallon-01.png","HotAirBallon-01.png",
+   "HotAirBallon-01.png","HotAirBallon-02.png","HotAirBallon-02.png",
+   "HotAirBallon-02.png","HotAirBallon-03.png","HotAirBallon-03.png","HotAirBallon-03.png");
   }
 
 //Function to set initial environment
